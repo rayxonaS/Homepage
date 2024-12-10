@@ -1,0 +1,99 @@
+@import url(./global.css);
+
+:root {
+  --main-color: #ffffff;
+  --second-color: rgba(246, 126, 126, 1);
+  --third-color: rgba(255, 255, 255, 1);
+  --main-background-color: rgba(1, 78, 86, 1);
+  --main-fs: 6.4rem;
+  --second-fs: 3.2rem;
+  --third-fs: 1.8rem;
+  --fourth-fs: 1.5rem;
+  --main-lh: 1.6;
+  --second-lh: 1.5;
+}
+
+.contact {
+  padding-bottom: 12rem;
+  padding-top: 12rem;
+  background-color: var(--main-background-color);
+  color: var(--main-color);
+  background-image: url(../images/contact1.svg), url(../images/contact2.svg);
+  background-repeat: no-repeat;
+  background-position: top 4.5rem left, bottom right;
+}
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: var(--main-fs);
+  line-height: var(--main-lh);
+  margin-bottom: 4.6rem;
+}
+.contact-text {
+  font-weight: 700;
+  font-size: var(--second-color);
+  line-height: var(--second-lh);
+  margin-bottom: 3.2rem;
+  color: var(--second-color);
+}
+.contact-sections {
+  width: 100%;
+  max-width: 540px;
+}
+.contact-item {
+  font-weight: 700;
+  display: flex;
+  gap: 2.3rem;
+}
+
+input:required + span {
+  content: green;
+}
+.contact-item-description {
+  font-size: var(--third-fs);
+  line-height: var(--second-lh);
+  margin-bottom: 5.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-items {
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.7rem;
+  width: 100%;
+  max-width: 542px;
+}
+
+.description {
+  font-family: "Livvic", sans-serif;
+  width: 540px;
+  height: 42px;
+  text-align: center;
+  justify-content: space-between;
+  color: var(--third-color);
+  background-color: var(--main-background-color);
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: var(--fourth-fs);
+  line-height: var(--main-lh);
+  letter-spacing: -0.12px;
+  text-align: left;
+  border: none;
+  margin-bottom: 1.7rem;
+  border-color: blue;
+}
+
+hr {
+  width: 540px;
+  height: 1px;
+}
+
+.button {
+  margin-top: 2.4rem;
+}

@@ -1,0 +1,173 @@
+@import url(./global.css);
+
+:root {
+  --main-color: #ffffff;
+  --second-color: rgba(246, 126, 126, 1);
+  --third-color: #79c8c7;
+  --main-background-color: rgba(1, 78, 86, 1);
+  --second-background-color: rgba(0, 64, 71, 1);
+  --third-background-color: rgba(1, 47, 52, 1);
+  --main-border-color: #79c8c7;
+  --main-fs: 6.4rem;
+  --second-fs: 1.8rem;
+  --third-fs: 4.8rem;
+  --fourth-fs: 1.5rem;
+  --main-font-weight: 700;
+  --main-line-height: 1.5;
+  --second-line-height: 1.6;
+  --third-line-height: 1;
+}
+
+.hero {
+  padding-bottom: 12rem;
+  padding-top: 17.6rem;
+  background-color: var(--main-background-color);
+  background-image: url(../images/aboutsite1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  width: 100%;
+  max-width: 350px;
+  font-weight: var(--main-font-weight);
+  font-size: var(--main-fs);
+  line-height: var(--main-line-height);
+  color: var(--main-color);
+}
+.hero-description {
+  width: 100%;
+  max-width: 730px;
+}
+
+.orange-divider {
+  color: var(--second-color);
+}
+.hero-text {
+  color: var(--main-color);
+  font-size: var(--second-fs);
+  line-height: var(--main-line-height);
+  margin-top: 4rem;
+}
+
+.services {
+  padding-bottom: 14rem;
+  padding-top: 14rem;
+  background-color: var(--second-background-color);
+  background-image: url(../images/aboutsite2.png), url(../images/aboutsite3.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  color: var(--main-color);
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.services-title {
+  text-align: center;
+  font-weight: var(--main-font-weight);
+  font-size: var(--third-fs);
+  line-height: var(--third-line-height);
+  margin-bottom: 6.4rem;
+}
+.services-content-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 7.6rem;
+}
+
+.services-content-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 16.8rem;
+}
+.services-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  height: 281px;
+  background-color: var(--third-background-color);
+}
+.services-content-image {
+  margin-top: 3.2rem;
+  border-radius: 50%;
+  border: 2px solid var(--main-border-color);
+}
+.services-content-person {
+  margin-top: 1.6rem;
+  font-size: var(--second-fs);
+  line-height: var(--second-line-height);
+  color: var(--third-color);
+}
+.services-content-job {
+  margin-top: 0.8rem;
+  color: var(--main-color);
+  font-size: var(--fourth-fs);
+  line-height: var(--main-line-height);
+}
+
+.services-content-item {
+  width: 100%;
+  max-width: 302px;
+}
+
+.services-content-person-alan {
+  text-align: center;
+  color: var(--third-color);
+  font-size: var(--second-fs);
+  line-height: var(--main-line-height);
+  margin-bottom: 0.8rem;
+}
+
+.services-content-job-alan {
+  margin-bottom: 2.4rem;
+  font-size: var(--fourth-fs);
+  line-height: var(--second-line-height);
+  text-align: center;
+}
+
+.services-alan-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.clients {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  color: var(--main-color);
+  background-color: var(--third-background-color);
+  background-image: url(../images/aboutsite4.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.clients-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-title {
+  text-align: center;
+  font-weight: var(--main-font-weight);
+  font-size: var(--third-fs);
+  line-height: var(--third-line-height);
+  margin-bottom: 6.4rem;
+}
+.clients-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
